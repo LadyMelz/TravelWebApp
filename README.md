@@ -1,7 +1,7 @@
 # TravelWebApp
 Welcome to the Travel Web App! This web application allows users to create customized itineraries from a list of attractions and events available in Ethiopia.
 
-Features
+# Features
 
 User Authentication: Users can create accounts and log in securely to access the app's features.
 
@@ -11,7 +11,7 @@ Create Itineraries: Users can create personalized itineraries by selecting attra
 
 Save and Share Itineraries: Users can save their itineraries for future reference and share them with friends and family.
 
-Technologies Used
+# Technologies Used
 
 Frontend: Built with React.js for a dynamic and interactive user interface.
 
