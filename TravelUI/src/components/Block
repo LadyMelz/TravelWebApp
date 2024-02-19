@@ -1,0 +1,25 @@
+import React from 'react'
+import { useNavigate } from "react-router-dom";
+
+export default function Block(props){ 
+    const navigate = useNavigate()
+    return(
+        <div className='block' onClick={() => {
+            navigate('/viewpage', {
+            state: {
+                img: props.img, 
+                title: props.title,
+                shortDes: props.short_Description,
+                longDes: props.long_Description,
+                link: props.link
+                }
+            });
+        }}>
+                <p className='block--title'>{props.title}</p>
+            <div className='block-inner'>
+                <img src={`../../images/${props.img}`} className='block--image'/> 
+                <p className='block--descrption'>{props.short_Description + "..."}</p>
+            </div>
+        </div>
+    )
+}
